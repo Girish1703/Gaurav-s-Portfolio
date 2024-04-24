@@ -1,0 +1,52 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px; /* Add margin at the bottom of the list for space */
+}
+
+/* Add space between link and text */
+ul li a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust this value as needed */
+}
+
+/* Add space between list items */
+ul li {
+    margin-bottom: 15px; /* Adjust the spacing between each list item as needed */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f2f2f2;
+}

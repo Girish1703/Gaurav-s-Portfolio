@@ -1,0 +1,100 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for header */
+header {
+    background-color: #fd4766;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Styles for main heading */
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Styles for internship section */
+.internship-section {
+    padding: 40px;
+}
+
+/* Styles for internship cards */
+.internship-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.internship-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.internship-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styles for photo container */
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.photo-container .photo {
+    text-align: center;
+}
+
+.photo-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.photo-container p {
+    font-size: 18px;
+}
+
+/* Styles for links */
+.links a {
+    padding: 10px 20px;
+    background-color: #fd4766;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: #ff5f83;
+}
+
+.photo-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the contents horizontally */
+  }
+.photo {
+    display: inline-block; 
+    margin: 10px; 
+}
+  
+.photo img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 10px;
+  }
+.photo p {
+    text-align: center; 
+    margin-top: 5px; 
+  }
+  
